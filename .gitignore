@@ -1,0 +1,63 @@
+# Dependencias
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Variables de entorno 
+.env
+.env.local
+.env.production
+.env.development
+
+# Base de datos local
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# IDE y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build y distribución
+dist/
+build/
+out/
+.next/
+.cache/
+
+# Archivos de backup
+*.bak
+*.backup
+*.old
+
+# Certificados SSL
+*.pem
+*.crt
+*.key
+
+# Archivos temporales
+tmp/
+temp/
+*.tmp
+
+# Cobertura de tests
+coverage/
+.nyc_output/
+
+# Archivos de usuario
+*.ics
+*.csv
