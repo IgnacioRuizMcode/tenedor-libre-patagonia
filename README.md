@@ -25,6 +25,17 @@
 
 > 💡 **Importante:** Los usuarios invitados (sin registro) reciben confirmación por WhatsApp directamente al número del restaurante. Los usuarios registrados con Google reciben un correo con archivo .ics para agregar automáticamente la reserva a su calendario.
 
+
+## 📧 Sistema de Notificaciones
+
+| Evento | Destinatario | Medio | Contenido |
+|--------|--------------|-------|-----------|
+| Nueva reserva | Admin | Email | Datos completos del cliente |
+| Modificación PAX | Admin | Email | Cambio (viejo → nuevo) |
+| Cancelación | Admin | Email | Datos de la reserva |
+| Reserva (registrado) | Cliente | Email | HTML + archivo .ics |
+| Reserva (invitado) | Restaurante | WhatsApp | Mensaje con todos los detalles |
+
 ## 🛠️ Tecnologías
 
 | Frontend | Backend | Base de Datos | Autenticación |
@@ -41,6 +52,27 @@
 - MongoDB (local o Atlas)
 - Cuenta Google Cloud Console (para OAuth)
 - Cuenta Gmail (para nodemailer)
+
+📸 Capturas de pantalla
+1. Landing Page - Hero
+<img width="1920" height="921" alt="landing-hero" src="https://github.com/user-attachments/assets/1438faf6-a4fb-400d-80c3-b92834423205" />
+2. Landing Page - Menú
+<img width="1919" height="913" alt="landing-menu png" src="https://github.com/user-attachments/assets/ab138f59-f6ed-4067-b99a-be3b6ca79ba2" />
+
+3. Formulario de Reserva
+<img width="1919" height="919" alt="reserva-form png" src="https://github.com/user-attachments/assets/bb2443a4-c1a8-4f1e-a60d-a3613b5e3fd9" />
+
+4. Ubicación y Horarios
+<img width="1920" height="923" alt="ubicacion png" src="https://github.com/user-attachments/assets/4ef6d88e-69b0-4894-b205-15800ac1938b" />
+
+5. Modal de Inicio de Sesión
+<img width="402" height="517" alt="login-modal png" src="https://github.com/user-attachments/assets/fcd9d371-d373-4d12-9dd5-ad8e6b45c270" />
+
+6. Perfil de Usuario
+<img width="1920" height="922" alt="perfil-usuario png" src="https://github.com/user-attachments/assets/7bb8ae7f-43ad-40a8-9719-c4d809c88863" />
+
+7. Dashboard Administrador
+<img width="1918" height="924" alt="admin-dashboard png" src="https://github.com/user-attachments/assets/04db703e-d997-49fd-b40b-19bc73f10ba9" />
 
 ### Pasos
 
@@ -65,3 +97,7 @@ npm run dev
 
 # Terminal 2 - Frontend (web-app)
 npm run dev
+
+
+
+
