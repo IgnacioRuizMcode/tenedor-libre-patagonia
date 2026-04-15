@@ -4,13 +4,7 @@
 
 <img width="1920" height="921" alt="landing-hero" src="https://github.com/user-attachments/assets/1438faf6-a4fb-400d-80c3-b92834423205" />
 
-## 📋 Tabla de contenidos
 
-- [Características](#-características)
-- [Tecnologías](#-tecnologías)
-- [Instalación](#-instalación)
-- [Capturas de pantalla](#-capturas-de-pantalla)
-- [Autor](#-autor)
 
 ## ✨ Características
 
