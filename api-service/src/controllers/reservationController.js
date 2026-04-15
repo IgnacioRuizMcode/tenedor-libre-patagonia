@@ -28,7 +28,7 @@ const sendAdminNotification = async (subject, htmlContent) => {
   try {
     await transporter.sendMail({
       from: `"Tenedor Libre Patagonia" <${process.env.EMAIL_USER}>`,
-      to: process.env.ADMIN_EMAIL || 'ig.ruizm@duocuc.cl',
+      to: process.env.ADMIN_EMAIL || 'tu.correo.com',
       subject: subject,
       html: htmlContent
     });
