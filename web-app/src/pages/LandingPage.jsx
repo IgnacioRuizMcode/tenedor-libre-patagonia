@@ -20,7 +20,7 @@ const menuCategories = [
   { title: "Postres", items: ["Postres Caseros", "Frutas de Estación", "Leche Asada", "Mousse Chocolate"] },
 ];
 
-const ADMIN_EMAIL = "ig.ruizm@duocuc.cl";
+const ADMIN_EMAIL = "tu.correo.com";
 
 function LandingPage() {
   // --- ESTADOS LÓGICOS ---
