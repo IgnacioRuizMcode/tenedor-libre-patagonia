@@ -87,7 +87,7 @@
 5. Modal de Inicio de Sesión
 <img width="402" height="517" alt="login-modal png" src="https://github.com/user-attachments/assets/fcd9d371-d373-4d12-9dd5-ad8e6b45c270" />
 
-6. Perfil de Usuario
+6. Historial de reservas usuario registrado
 <img width="1920" height="922" alt="perfil-usuario png" src="https://github.com/user-attachments/assets/7bb8ae7f-43ad-40a8-9719-c4d809c88863" />
 
 7. Dashboard Administrador
