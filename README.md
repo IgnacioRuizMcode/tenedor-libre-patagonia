@@ -14,10 +14,28 @@
 | **Reservas** | Sin necesidad de registro, confirmación por WhatsApp, validación de fechas/horarios |
 | **Autenticación** | Google OAuth + Email/Password, registro con email, sesión persistente |
 | **Perfil Usuario** | Ver reservas, modificar cantidad de personas, cancelar reservas, agendar en Google Calendar |
-| **Admin Dashboard** | Estadísticas en tiempo real, filtrar por fecha/cliente/estado, exportar CSV, modificar PAX, cambiar estado |
+| **Admin Dashboard** | Estadísticas en tiempo real (ganancias estimadas, total de personas, reservas confirmadas/pendientes), filtrar por fecha/cliente/estado, exportar CSV, modificar PAX, cambiar estado |
 | **Notificaciones** | Correo de confirmación al cliente (con archivo .ics), correo al admin al crear/modificar/cancelar reserva |
 
 > 💡 **Importante:** Los usuarios invitados (sin registro) reciben confirmación por WhatsApp directamente al número del restaurante. Los usuarios registrados con Google reciben un correo con archivo .ics para agregar automáticamente la reserva a su calendario.
+
+
+## 👥 Usuarios y Roles
+
+| Rol | Acceso | Funcionalidades |
+|-----|--------|-----------------|
+| **Usuario invitado** | Sin registro | Reservar mesa, confirmación por WhatsApp |
+| **Usuario registrado** | Email/Password o Google | Reservar, ver historial, modificar PAX, cancelar reservas, agendar en Google Calendar |
+| **Administrador** | Email específico (tu.correo.com) | Dashboard completo, gestión de reservas, estadísticas, exportar CSV, notificaciones |
+
+## 📊 Dashboard Admin - Estadísticas
+
+| Métrica | Descripción |
+|---------|-------------|
+| **Ganancia estimada** | Cálculo automático basado en (cantidad de personas × $24.990) |
+| **Total de personas** | Suma de todos los comensales en las reservas filtradas |
+| **Reservas confirmadas** | Conteo de reservas con estado "confirmada" |
+| **Reservas pendientes** | Conteo de reservas con estado "pendiente" |
 
 
 ## 📧 Sistema de Notificaciones
@@ -29,6 +47,13 @@
 | Cancelación | Admin | Email | Datos de la reserva |
 | Reserva (registrado) | Cliente | Email | HTML + archivo .ics |
 | Reserva (invitado) | Restaurante | WhatsApp | Mensaje con todos los detalles |
+
+## 🔐 Cuenta de Administrador
+
+| Campo | Valor |
+|-------|-------|
+| Email | `tu.correo.com` |
+| Acceso | Iniciar sesión con la cuenta que tu indiques tienes que modificarla tu mismo |
 
 ## 🛠️ Tecnologías
 
