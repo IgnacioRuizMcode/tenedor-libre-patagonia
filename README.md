@@ -1,4 +1,4 @@
-# 🍽️ Tenedor Libre Patagonia
+#  Tenedor Libre Patagonia
 
 > Sistema de reservas para buffet premium en Puerto Montt, Chile
 
@@ -6,7 +6,7 @@
 
 
 
-## ✨ Características
+##  Características
 
 | Módulo | Funcionalidades |
 |--------|-----------------|
@@ -17,10 +17,10 @@
 | **Admin Dashboard** | Estadísticas en tiempo real (ganancias estimadas, total de personas, reservas confirmadas/pendientes), filtrar por fecha/cliente/estado, exportar CSV, modificar PAX, cambiar estado |
 | **Notificaciones** | Correo de confirmación al cliente (con archivo .ics), correo al admin al crear/modificar/cancelar reserva |
 
-> 💡 **Importante:** Los usuarios invitados (sin registro) reciben confirmación por WhatsApp directamente al número del restaurante. Los usuarios registrados con Google reciben un correo con archivo .ics para agregar automáticamente la reserva a su calendario.
+>  **Importante:** Los usuarios invitados (sin registro) reciben confirmación por WhatsApp directamente al número del restaurante. Los usuarios registrados con Google reciben un correo con archivo .ics para agregar automáticamente la reserva a su calendario.
 
 
-## 👥 Usuarios y Roles
+##  Usuarios y Roles
 
 | Rol | Acceso | Funcionalidades |
 |-----|--------|-----------------|
@@ -28,7 +28,7 @@
 | **Usuario registrado** | Email/Password o Google | Reservar, ver historial, modificar PAX, cancelar reservas, agendar en Google Calendar |
 | **Administrador** | Email específico (tu.correo.com) | Dashboard completo, gestión de reservas, estadísticas, exportar CSV, notificaciones |
 
-## 📊 Dashboard Admin - Estadísticas
+##  Dashboard Admin - Estadísticas
 
 | Métrica | Descripción |
 |---------|-------------|
@@ -38,7 +38,7 @@
 | **Reservas pendientes** | Conteo de reservas con estado "pendiente" |
 
 
-## 📧 Sistema de Notificaciones
+##  Sistema de Notificaciones
 
 | Evento | Destinatario | Medio | Contenido |
 |--------|--------------|-------|-----------|
@@ -48,14 +48,14 @@
 | Reserva (registrado) | Cliente | Email | HTML + archivo .ics |
 | Reserva (invitado) | Restaurante | WhatsApp | Mensaje con todos los detalles |
 
-## 🔐 Cuenta de Administrador
+##  Cuenta de Administrador
 
 | Campo | Valor |
 |-------|-------|
 | Email | `tu.correo.com` |
 | Acceso | Iniciar sesión con la cuenta que tu indiques tienes que modificarla tu mismo |
 
-## 🛠️ Tecnologías
+##  Tecnologías
 
 | Frontend | Backend | Base de Datos | Autenticación |
 |----------|---------|---------------|---------------|
@@ -64,7 +64,7 @@
 | Vite | Nodemailer | MongoDB Atlas | bcryptjs |
 | Lucide Icons | - | - | express-session |
 
-## 📦 Instalación local
+##  Instalación local
 
 ### Requisitos
 - Node.js 18+
