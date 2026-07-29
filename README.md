@@ -72,7 +72,7 @@
 - Cuenta Google Cloud Console (para OAuth)
 - Cuenta Gmail (para nodemailer)
 
-📸 Capturas de pantalla
+ Capturas de pantalla
 1. Landing Page - Hero
 <img width="1920" height="921" alt="landing-hero" src="https://github.com/user-attachments/assets/1438faf6-a4fb-400d-80c3-b92834423205" />
 2. Landing Page - Menú
